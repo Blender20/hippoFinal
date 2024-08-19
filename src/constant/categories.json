@@ -1,0 +1,461 @@
+{
+  "categories": {
+    "businessCards": {
+      "Size": {
+        "2 x 3.5": 1
+      },
+      "Material": {
+        "Gloss": 1,
+        "Uncoated": 2
+      },
+      "Printed Sides": {
+        "Single Sided": 5,
+        "Double Sided": 15
+      }
+    },
+    "clearStickers": {
+      "Shape": {
+        "Square (Rounded Corners)": 2,
+        "Rectangle (Rounded Corners)": 4,
+        "Circle": 5,
+        "Oval": 8,
+        "Custom": 10
+      },
+      "Size": {
+        "1 x 1": 3,
+        "0.5 x 0.5": 2,
+        "1.5 x 1.5": 2.5,
+        "2 x 2": 3.5,
+        "2.5 x 2.5": 6,
+        "3 x 3": 10
+      },
+      "Material": {
+        "Clear BOPP (Indoor)": 20,
+        "Brown Kraft Paper": 15
+      },
+      "Color": {
+        "Full Color": 15,
+        "Black & White / Grayscale": 20
+      },
+      "White Ink": {
+        "Make everything transparent": 4,
+        "Make only the background clear": 6,
+        "Make white areas clear (Free Upgrade)": 8,
+        "Follow file settings (Free Upgrade)": 10
+      }
+    },
+    "stickerSheet": {
+      "Sticker Size": {
+        "2.6 x 1 ": 5,
+        "3.5 x 2": 8,
+        "4 x 2": 10,
+        "4 x 3": 12
+      },
+      "Sheet Size": {
+        "8.5 x 11": 15
+      },
+      "Shape": {
+        "Rectangle": 6
+      },
+      "Paper": {
+        "White Paper - Uncoated": 14,
+        "White Paper - High Gloss": 18
+      },
+      "Colors": {
+        "Full Color (4 Color Process)": 18
+      },
+      "Number of Sheets": {
+        "25": 20,
+        "50": 40,
+        "100": 60,
+        "200": 80
+      },
+      "Number of Sticker": {
+        "750": 30
+      }
+    },
+    "squareLabel": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Rounded Corner": {
+        "Yes": 4,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "dieCut": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "ovalStickers": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Size": {
+        "2 x 2": 3,
+        "3 x 3": 4,
+        "4 x 4": 6,
+        "5 x 5": 8
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "bumperStickers": {
+      "Size": {
+        "2 x 2": 3,
+        "2 x 3": 4,
+        "3 x 3": 6,
+        "3 x 4": 8
+      },
+      "Colors": {
+        "4/0- Color Front, No Back": 5
+      },
+      "Paper": {
+        "White Vinyl Sticker -High Gloss": 8
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "dtf": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "kissCut": {
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Size": {
+        "2 x 2": 3,
+        "3 x 3": 5,
+        "4 x 4": 7,
+        "Custom": 10
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "roundStickers": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "rectangleStickers": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "CustomSticker": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Matte": 5,
+        "White Paper Sticker - High Gloss": 10,
+        "White Vinyl Sticker - High Gloss": 15
+      },
+      "Colors": {
+        "Full Color (4 Color Process)": 15,
+        "Black and White": 10
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    },
+    "premiumvinylysticker": {
+      "Format": {
+        "Cut-to-size": 10,
+        "Sheet": 15,
+        "Kiss-cut": 12
+      },
+      "Shape": {
+        "Rectangle / Square": 8,
+        "Circle": 5,
+        "Oval": 5,
+        "Custom": 10
+      },
+      "Width": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Height": {
+        "2": 0,
+        "2.25": 2,
+        "2.5": 3,
+        "2.75": 4,
+        "3": 5
+      },
+      "Material": {
+        "Gold": 5,
+        "Rose Gold": 5,
+        "Shinny Sliver": 10,
+        "Matt Sliver": 15,
+        "Glitter Holographic": 20
+      },
+      "Rounded Corner": {
+        "Yes": 2,
+        "No": 0
+      },
+      "Shrink Wrapping": {
+        "No": 0,
+        "In Sets of 25": 3,
+        "In Sets of 50": 5,
+        "In Sets of 100": 10
+      }
+    }
+  }
+}

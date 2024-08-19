@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  @apply font-raleway;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.loader {
+  --d: 33px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  color: rgb(234 88 12);
+  box-shadow:
+    calc(1 * var(--d)) calc(0 * var(--d)) 0 0,
+    calc(0.707 * var(--d)) calc(0.707 * var(--d)) 0 1px,
+    calc(0 * var(--d)) calc(1 * var(--d)) 0 2px,
+    calc(-0.707 * var(--d)) calc(0.707 * var(--d)) 0 3px,
+    calc(-1 * var(--d)) calc(0 * var(--d)) 0 4px,
+    calc(-0.707 * var(--d)) calc(-0.707 * var(--d)) 0 5px,
+    calc(0 * var(--d)) calc(-1 * var(--d)) 0 6px;
+  animation: l27 2s infinite linear;
+}
+
+@keyframes l27 {
+  100% {
+    transform: rotate(1turn)
+  }
+}
+
+.thin-scollbar {
+  scrollbar-width: thin !important;
+}
