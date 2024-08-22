@@ -15,17 +15,15 @@ import { CategoryProps, ProductProps } from '../../type'
 import { store } from '../lib/store'
 import Container from './Container'
 import ProductCard from './ProductCard'
-import { collection, getDocs } from "firebase/firestore";
+import { collection, getDocs } from 'firebase/firestore'
 import { db } from '../lib/firebase'
-import Logo from "../assets/hippo.png"
-
+import Logo from '../assets/hippo.png'
 
 const Header = () => {
   const [searchText, setSearchText] = useState('')
   const [products, setProducts] = useState([])
   const { currentUser, cartProduct, favoriteProduct } = store()
-  const [categories, setCategories] = useState<CategoryProps[]>([]);
-
+  const [categories, setCategories] = useState<CategoryProps[]>([])
 
   const data: any = useLoaderData()
   useEffect(() => {
@@ -42,21 +40,22 @@ const Header = () => {
     setFilteredProducts(filtered)
   }, [searchText])
 
-
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const querySnapshot = await getDocs(collection(db, "Category"));
-        const category = querySnapshot.docs.map(doc => doc.data() as CategoryProps);
+        const querySnapshot = await getDocs(collection(db, 'Category'))
+        const category = querySnapshot.docs.map(
+          (doc) => doc.data() as CategoryProps
+        )
         // console.log("🚀 ~ fetchData ~ data:", category);
-        setCategories(category);
+        setCategories(category)
       } catch (error) {
-        console.error('Error fetching data', error);
+        console.error('Error fetching data', error)
       }
-    };
+    }
 
-    fetchData();
-  }, []);
+    fetchData()
+  }, [])
 
   const bottomNavigation = [
     { title: 'Home', link: '/' },
@@ -103,7 +102,7 @@ const Header = () => {
                 <p className='text-xl font-normal'>
                   Nothing matches with your search keywords{' '}
                   <span className='underline underline-offset-2 decoration-[1px] text-red-500 font-semibold'>{`(${searchText})`}</span>
-                  . Please try again
+                  Please try again.
                 </p>
               </div>
             )}
@@ -152,8 +151,8 @@ const Header = () => {
             >
               <MenuItems
                 anchor='bottom end'
-                className='w-52 origin-top-right !max-h-[75vh] !overflow-y-scroll thin-scollbar rounded border border-white/5 bg-gray-700 p-1 text-sm/6 text-gray-300 [--anchor-gap:var(--spacing-1)] focus:outline-none hover:text-white z-50'
-              style={{scrollbarWidth: 'thin'}}
+                className='w-52 origin-top-right !max-h-[75vh] !overflow-y-scroll thin-scrollbar rounded border border-white/5 bg-gray-700 p-1 text-sm/6 text-gray-300 [--anchor-gap:var(--spacing-1)] focus:outline-none hover:text-white z-50'
+                style={{ scrollbarWidth: 'thin' }}
               >
                 {categories?.map((item: CategoryProps) => (
                   <MenuItem key={item?._id}>
