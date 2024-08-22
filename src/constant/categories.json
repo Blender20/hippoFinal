@@ -40,26 +40,32 @@
       "White Ink": {
         "Make everything transparent": 4,
         "Make only the background clear": 6,
-        "Make white areas clear (Free Upgrade)": 8,
-        "Follow file settings (Free Upgrade)": 10
+        "Make white areas clear": 8,
+        "Follow file settings": 10
       }
     },
     "stickerSheet": {
       "Sticker Size": {
-        "2.6 x 1 ": 5,
-        "3.5 x 2": 8,
-        "4 x 2": 10,
-        "4 x 3": 12
+        "1 x 1 ": 5,
+        "2 x 2": 8,
+        "3 x 3": 10,
+        "4 x 4": 12
       },
       "Sheet Size": {
         "8.5 x 11": 15
       },
       "Shape": {
-        "Rectangle": 6
+        "Rectangle": 6,
+        "Square": 4,
+        "Circle": 8,
+        "Oval": 10,
+        "Custom": 12
       },
-      "Paper": {
-        "White Paper - Uncoated": 14,
-        "White Paper - High Gloss": 18
+      "Material": {
+        "White Vinyl  - High Gloss": 18,
+        "White Vinyl - Uncoated": 14,
+        "White Paper - High Gloss": 10,
+        "White Paper - Uncoated": 10
       },
       "Colors": {
         "Full Color (4 Color Process)": 18
@@ -68,10 +74,10 @@
         "25": 20,
         "50": 40,
         "100": 60,
-        "200": 80
+        "200": 100
       },
       "Number of Sticker": {
-        "750": 30
+        "12": 7
       }
     },
     "squareLabel": {
@@ -101,10 +107,10 @@
         "3": 5
       },
       "Material": {
-        "White Paper Sticker - Gloss": 5,
-        "White Paper Sticker - Matte": 5,
-        "White Paper Sticker - High Gloss": 10,
-        "White Vinyl Sticker - High Gloss": 15
+        "White Paper Sticker - Gloss": 15,
+        "White Vinyl Sticker - Matte": 10,
+        "White Paper Sticker - High Gloss": 5,
+        "White Vinyl Sticker - High Gloss": 3
       },
       "Rounded Corner": {
         "Yes": 4,
@@ -144,10 +150,10 @@
         "3": 5
       },
       "Material": {
-        "White Paper Sticker - Gloss": 5,
+        "White Paper Sticker - Gloss": 8,
         "White Paper Sticker - Matte": 5,
-        "White Paper Sticker - High Gloss": 10,
-        "White Vinyl Sticker - High Gloss": 15
+        "White Vinyl Sticker - High Gloss": 15,
+        "White Vinyl Sticker - Matte": 10
       },
       "Rounded Corner": {
         "Yes": 2,
@@ -292,25 +298,17 @@
         "Oval": 5,
         "Custom": 10
       },
-      "Width": {
-        "2": 0,
-        "2.25": 2,
-        "2.5": 3,
-        "2.75": 4,
-        "3": 5
-      },
-      "Height": {
-        "2": 0,
-        "2.25": 2,
-        "2.5": 3,
-        "2.75": 4,
-        "3": 5
+      "Size": {
+        "2 x 2": 3,
+        "3 x 3": 4,
+        "4 x 4": 6,
+        "5 x 5": 8
       },
       "Material": {
-        "White Paper Sticker - Gloss": 5,
-        "White Paper Sticker - Matte": 5,
-        "White Paper Sticker - High Gloss": 10,
-        "White Vinyl Sticker - High Gloss": 15
+        "White Vinyl Sticker - Gloss": 10,
+        "White Vinyl Sticker - Matte": 7,
+        "White Paper Sticker - High Gloss": 15,
+        "White Paper Sticker - Matte": 3
       },
       "Rounded Corner": {
         "Yes": 2,
